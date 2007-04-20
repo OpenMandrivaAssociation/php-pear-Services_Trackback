@@ -3,10 +3,12 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
+%define		_requires_exceptions pear(PHPUnit.php)
+
 Summary:	%{_pearname} - a generic class for sending and receiving trackbacks
 Name:		php-pear-%{_pearname}
 Version:	0.6.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -81,5 +83,3 @@ rm -rf %{buildroot}
 %{_datadir}/pear/%{_class}/Trackback/*.php
 %{_datadir}/pear/%{_class}/Trackback/SpamCheck/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
