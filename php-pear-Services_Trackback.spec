@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - a generic class for sending and receiving trackbacks
 Name:		php-pear-%{_pearname}
 Version:	0.6.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
