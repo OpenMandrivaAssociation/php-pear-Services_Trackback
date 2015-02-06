@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.7.1
-Release:	1
+Release:	2
 Summary:	A generic class for sending and receiving trackbacks
 License:	PHP License
 Group:		Development/PHP
