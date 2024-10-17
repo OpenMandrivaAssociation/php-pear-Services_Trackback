@@ -8,7 +8,7 @@ Release:	2
 Summary:	A generic class for sending and receiving trackbacks
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Services_Trackback/
+URL:		https://pear.php.net/package/Services_Trackback/
 Source0:	http://download.pear.php.net/package/Services_Trackback-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
